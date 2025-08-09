@@ -537,3 +537,22 @@ function renderPowerUps(){
     powerUpList.appendChild(e);
   }
 }
+
+/* small helper: packaging & usage instructions shown in console */
+console.log(`
+Huff & Puff - instructions:
+- Save this file as index.html
+- Open in a modern browser (desktop or mobile)
+- To add your artwork replace drawGirl and drawBackgroundScenery with image draws
+- To package as a PWA or native app:
+  * For web hosting: upload to GitHub Pages, Netlify, or Vercel
+  * For native: use Capacitor (npm i -g @capacitor/cli)
+    - npm init (for a project), copy this file to www/index.html
+    - npx cap init com.example.huffpuff "HuffPuff"
+    - npx cap add android
+    - npx cap open android
+`);
+
+</script>
+</body>
+</html>
